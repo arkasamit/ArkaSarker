@@ -1,15 +1,19 @@
 body{
     font-family: 'Lato', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
+margin: 0px;
 }
+
 h2{
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Open Sans', sans-serif;
     color: pink;
+    line-height: 0em;   
 }
 h3{
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Lato', sans-serif;
+   
 }
 .half-width{
     width: 30%;
@@ -23,6 +27,25 @@ h3{
     
 }
 #adjust{
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 20%;
+}
+.topwebsite{
+    background-image: url(header-bg.png);
+    
+    background-repeat: no-repeat;
+}
+section{
+    height: 700px;
+    background-size: contain;
+
+}
+.link-btn{
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, rgb(184, 171, 171), rgb(182, 140, 147), rgb(243, 80, 80));
 }
