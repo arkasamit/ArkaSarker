@@ -124,4 +124,7 @@ section{
 .three > p{
      font-size: 35px;
     }
+ .last-part{
+        background-image: url(footer-bg.png);
+    }
   
