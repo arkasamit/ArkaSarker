@@ -131,6 +131,8 @@ section{
     }
  .last-part{
         background-image: url(footer-bg.png);
+        background-size: cover;
+        
     }
 footer{
     text-align: center;
